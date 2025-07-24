@@ -21,4 +21,4 @@ def combine_smile(smile1, smile2):
     # get number of explicit H
     # set number of explicat H
 
-# combine_smile("CC(=C(Cl)C(Cl)=C1Cl)C(Cl)=C1Cl", "C(C)(C)C")
+combine_smile("CC(C)=O", "[H]")

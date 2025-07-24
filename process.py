@@ -1,7 +1,7 @@
 from rdkit import Chem
 from rdkit.Chem import rdmolops
 
-def combine_with_bond(smile1, smile2, idx1=0, idx2=0):
+def combine_smile(smile1, smile2, idx1=0, idx2=0):
     mol1 = Chem.MolFromSmiles(smile1)
     mol2 = Chem.MolFromSmiles(smile2)
 

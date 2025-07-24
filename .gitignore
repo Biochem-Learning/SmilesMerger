@@ -1,0 +1,9 @@
+# ignore the cache
+__pycache__
+
+# ignore the virtual environment
+python-envs
+
+# ignore any file that starts with 'test'
+*.mol
+^test.py
